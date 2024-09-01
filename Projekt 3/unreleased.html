@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AC Fanklub</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css" />
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/8ba26cb1dc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">DOMŮ</a></li>
+          <li><a href="unreleased.html">SHADOWS</a></li>
+          <li><a href="latest.html">MIRAGE</a></li>
+          <li><a href="#OSTATNI">OSTATNÍ</a></li>
+          <li><a href="#KONTAKT">KONTAKT</a></li>
+        </ul>
+        <label class="toggle-switch">
+          <input type="checkbox" id="mode-toggle" />
+          <span class="slider"></span>
+        </label>
+      </nav>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+      </div>
+    </header>
+    <button class="scrollToTopBtn" id="scrollToTopBtn">
+      <img src="images/arrow-up.png" alt="Šipka nahoru" />
+    </button>
+    <div class="container">
+      <div class="hero-title2-wrap">
+        <div class="hero-unreleased-title-img"></div>
+      </div>
+    </div>
+    <!-- MAIN -->
+    <main class="container">
+      <section class="info-wrapper">
+        <div class="info-text-2">
+          <p class="info2-text-2-text">
+            Assassin's Creed Shadows se odehrává v feudálním Japonsku, konkrétně
+            začíná v roce 1579 během období Azuchi-Momoyama. Toto období
+            představuje závěrečnou fázi období Sengoku, kdy v Japonsku zuřila
+            intenzivní občanská válka. Ve hře se objevuje historická postava Ody
+            Nobunagy, který je na vrcholu své moci po vítězství nad klanem
+            Takeda za použití arkebuz. Klíčovými historickými událostmi je
+            Nobunagův útok na provincii Iga v roce 1581, významná bitva, která
+            zahrnovala Iga ikki, známé svými uměním ninjutsu. Hra prozkoumá
+            střední Japonsko, včetně regionů jako Kjóto, Kóbe, Ósaka a provincie
+            Iga, s historicky přesnými hrady, jako jsou Takeda a Fukuchijama,
+            spolu s podrobnými historickými památkami a pevnostmi navrženými
+            jako propracované dungeony. Toto prostředí slibuje živý svět
+            urbanizace, rušných přístavů, samurajských čtvrtí a zdobné
+            architektury, což vše bude mít velký význam pro parkour a průzkum ve
+            hře. Vliv portugalští obchodníci a jezuitští misionáři, kteří
+            přinesli křesťanství a nové technologie jako děla a dlouhé pušky,
+            také hraje roli při formování herního prostředí a příběhu. </br>
+            Hra se zaměří na tisíciletý boj Bratrstva asasínů, kteří bojují za mír a svobodu, a Řádu templářů, kteří usilují o mír prostřednictvím kontroly, z pohledu dvou protagonistů: Naoe, ženské šinobi, a Yasukeho, afrického samuraje inspirovaného historickou postavou téhož jména. Obě postavy se ovládají odlišně a nabízejí jedinečný herní styl, který umožňuje plnit úkoly různými způsoby.
+          </p>
+        </div>
+      </section>
+      <section class="gallery-wrapper">
+        <div class="gallery-content">
+          <div class="photo2-1 gallery-item"></div>
+          <div class="photo2-2 gallery-item"></div>
+        </div>
+      </section>
+      <section class="fanklub-wrapper">
+        <div class="fanklub-content">
+          <div class="fanklub-text">
+            <h2>Fanklub přihlášení</h2>
+          </div>
+        </div>
+      </section>
+      <div class="form-wrapper">
+        <div class="form-container">
+          <form id="loginForm">
+            <div class="form-group">
+              <label for="username">Jméno:</label>
+              <input type="text" id="username" name="username" required />
+            </div>
+            <div class="form-group">
+              <label for="password">Heslo:</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+            <div class="form-group">
+              <label for="confirmPassword">Potvrdit heslo:</label>
+              <input
+                type="password"
+                id="confirmPassword"
+                name="confirmPassword"
+                required
+              />
+              <div id="error-message" class="error"></div>
+            </div>
+            <button type="submit" class="submit-btn">Přihlásit se</button>
+            <div id="success-message" class="success"></div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-contact"></div>
+      <p>
+        &#169; 2024 &#8226; Fanklub ASSASSIN'S CREED. Všechna práva vyhrazena.
+      </p>
+    </footer>
+  </body>
+</html>

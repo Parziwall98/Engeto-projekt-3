@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Tomáš Hůle-->
+  <!-- t.hule@icloud.com-->
+  <!-- Tomáš H. / parzival5735-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AC Fanklub</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css" />
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/8ba26cb1dc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">DOMŮ</a></li>
+          <li><a href="unreleased.html">SHADOWS</a></li>
+          <li><a href="latest.html">MIRAGE</a></li>
+          <li><a href="#OSTATNI">OSTATNÍ</a></li>
+          <li><a href="#KONTAKT">KONTAKT</a></li>
+        </ul>
+        <label class="toggle-switch">
+          <input type="checkbox" id="mode-toggle" />
+          <span class="slider"></span>
+        </label>
+      </nav>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+      </div>
+    </header>
+    <button class="scrollToTopBtn3" id="scrollToTopBtn">
+      <img src="images/arrow-up.png" alt="Šipka nahoru" />
+    </button>
+    <!-- TITLE -->
+    <div class="container3">
+      <div class="hero-title2-wrap">
+        <div class="hero-latest-title-img"></div>
+      </div>
+      <!-- MAIN -->
+      <main>
+        <section class="info-wrapper">
+          <div class="info3-text-2">
+            <p class="info3-text-2-text">
+              Assassin's Creed Mirage je zasazen do Bagdádu během islámského
+              Zlatého věku, především během anarchie v Samaře, což bylo období
+              extrémní vnitřní nestability během vlády Abbásovského chalífátu.
+              Hra se odehrává deset let před událostmi Assassin's Creed Valhalla
+              a zkoumá příběh Basima Ibn Ishaqa, který přechází z pouličního
+              zloděje na plnohodnotného člena Skrytých, pod vedením svého
+              mentora, Roshan bint-La'Ahad. Stejně jako předchozí hry Assassin's
+              Creed, i Mirage představuje několik postav založených na
+              historických osobnostech, včetně Aliho ibn Muhammada, vůdce
+              povstání Zanj; bratří Banū Mūsā, trojice učených a vynálezců;
+              Muhammada ibn Tahira, posledního tahiridského guvernéra Chorasánu
+              a Bagdádu; a chalífy al-Mu'tazza (Abu 'Abdalláh Muhammada ibn
+              Dža'fara) a jeho matky Qabihy, kromě dalších, jako jsou al-Jahiz,
+              al-Farghani, Hunayn ibn Ishaq, Arib al-Ma'muniyya a Wasif
+              al-Turki.
+            </p>
+          </div>
+        </section>
+        <section class="gallery-wrapper">
+          <div class="gallery3-content">
+            <div class="photo3-1 gallery-item"></div>
+            <div class="photo3-2 gallery-item"></div>
+            <div class="photo3-3 gallery-item"></div>
+          </div>
+        </section>
+        <section class="fanklub-wrapper">
+          <div class="fanklub3-content">
+            <div class="fanklub-text">
+              <h2>Fanklub přihlášení</h2>
+            </div>
+          </div>
+        </section>
+        <div class="form-wrapper">
+          <div class="form3-container">
+            <form id="loginForm">
+              <div class="form-group">
+                <label for="username">Jméno:</label>
+                <input type="text" id="username" name="username" required />
+              </div>
+              <div class="form-group">
+                <label for="password">Heslo:</label>
+                <input type="password" id="password" name="password" required />
+              </div>
+              <div class="form-group">
+                <label for="confirmPassword">Potvrdit heslo:</label>
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  name="confirmPassword"
+                  required
+                />
+                <div id="error-message" class="error"></div>
+              </div>
+              <button type="submit" class="submit-btn">Přihlásit se</button>
+              <div id="success-message" class="success"></div>
+            </form>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <div class="footer-contact"></div>
+      <p>
+        &#169; 2024 &#8226; Fanklub ASSASSIN'S CREED. Všechna práva vyhrazena.
+      </p>
+    </footer>
+  </body>
+</html>
